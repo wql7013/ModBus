@@ -12,7 +12,7 @@ Library for Modbus, master/slave, ASCII/RTU, multi-platform, C language
 
 #### 使用方法:
 
-##### 1.主机
+##### 主机
 
    1. 调用ModBus_setup配置
 
@@ -28,7 +28,7 @@ Library for Modbus, master/slave, ASCII/RTU, multi-platform, C language
 
       - 调用ModBus_setRegisters写目标设备多寄存器
 
-##### 2.从机
+##### 从机
 
    1. 调用ModBus_setup配置参数
 
@@ -36,4 +36,4 @@ Library for Modbus, master/slave, ASCII/RTU, multi-platform, C language
 
    3. 在loop中调用ModBus_Slave_loop
 
-##### 3.函数形参看头文件对外接口部分
+##### 函数形参看头文件对外接口部分
