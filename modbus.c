@@ -1,16 +1,6 @@
 #include "modbus.h"
 #include <stdarg.h>
 
-static void print_controlled(const char* fmt, ...)
-{
-	static char buf[256];
-	va_list ap;
-	va_start(ap, fmt);
-	vsprintf(buf, fmt, ap);
-	va_end(ap);
-
-	myprintf(buf);
-}
 /** 配置ModBus实例 **/
 /*** 参数 ***
 ** address: 设备地址
